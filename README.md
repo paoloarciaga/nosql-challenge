@@ -1,11 +1,11 @@
 # NoSQL Challenge
 
-This repo consists of 2 notebooks where I evaluated Eat Safe, Love's ratings data in order to help their journalists and food critics decide where to focus future articles. 
+This repo consists of two jupyter notebooks where I evaluated Eat Safe, Love's ratings data in order to help their journalists and food critics decide where to focus future articles. 
 
 I referenced the exercises from week 12 to complete this challenge. I also utilized an askBCS tutor who helped edit my code for question 3, during my exploratory analysis. 
 
 ## Part 1: Database and Jupyter Notebook Set Up
-In this section of my NoSQL_Setup notebook, you'll see how I completed the following: 
+In this section of my Arciaga_NoSQL_Setup notebook, you'll see how I completed the following: 
 - Included the mongoimport command text you used to import establishments.json in a markdown cell at the beginning of your Jupyter notebook file 
 - The mongoimport command text dropped any existing establishments collection before importing establishments.json into MongoDB 
 - The database is named uk_food and the collection is named establishments 
@@ -17,7 +17,7 @@ In this section of my NoSQL_Setup notebook, you'll see how I completed the follo
 - The establishments collection was assigned to a variable
 
 ## Part 2: Updating the Database
-In the second section of my NoSQL_Setup notebook, you'll see how I completed the following: 
+In the second section of my Arciaga_NoSQL_Setup notebook, you'll see how I completed the following: 
 - The supplied data for the "Penang Flavours" restaurant was inserted into the establishments collection 
 - A query was performed to find the BusinessTypeID for "Restaurant/Cafe/Canteen" and returned only the BusinessTypeID and BusinessType fields 
 - The "Penang Flavours" document was updated with the correct value for BusinessTypeID 
@@ -26,7 +26,7 @@ In the second section of my NoSQL_Setup notebook, you'll see how I completed the
 - An update_many() query was performed to convert the latitude and longitude fields from strings to decimal numbers and RatingValue to integers
 
 ## Part 3: Exploratory Analysis 
-In my NoSQL_Analysis notebook, you'll see how I completed the following: 
+In my Arciaga_NoSQL_Analysis notebook, you'll see how I completed the following: 
 - Question 1: Which establishments have a hygiene score equal to 20? 
   - A query was performed to find the establishments with a hygiene score of 20 
   - count_documents() was used to list the number of documents (answer: 41) 
