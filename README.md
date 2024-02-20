@@ -2,6 +2,8 @@
 
 This repo consists of 2 notebooks where I evaluated Eat Safe, Love's ratings data in order to help their journalists and food critics decide where to focus future articles. 
 
+I referenced the exercises from week 12 to complete this challenge. I also utilized an askBCS tutor who helped edit my code for question 3, during my exploratory analysis. 
+
 ## Part 1: Database and Jupyter Notebook Set Up
 In this section of my NoSQL_Setup notebook, you'll see how I completed the following: 
 - Included the mongoimport command text you used to import establishments.json in a markdown cell at the beginning of your Jupyter notebook file 
